@@ -1,0 +1,3 @@
+{:tasks
+ {prn (shell "dotnet run --project src/console/console.csproj")
+  test (shell "dotnet test tests/aoc2022Tests/aoc2022Tests.csproj --filter FullyQualifiedName~aoc2022Tests.Day01Test --nologo --verbosity minimal")}}

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{222735C6-3715-4DEA-9CC6-D8D88AE9CD0C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aoc2022", "src\aoc2022\aoc2022.csproj", "{F09C918B-FA00-43EE-87D8-4A62A75D3CDF}"
@@ -8,6 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B33471D8-EE29-47E8-B0EB-3D80265B7A07}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aoc2022-Tests", "tests\aoc2022Tests\aoc2022Tests.csproj", "{CD78098C-081F-43BE-AC97-EEEB3208062D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console", "src\console\console.csproj", "{8C762C40-B165-4E4B-B801-119F19763797}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,9 +36,14 @@ Global
 		{CD78098C-081F-43BE-AC97-EEEB3208062D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD78098C-081F-43BE-AC97-EEEB3208062D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD78098C-081F-43BE-AC97-EEEB3208062D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C762C40-B165-4E4B-B801-119F19763797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C762C40-B165-4E4B-B801-119F19763797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C762C40-B165-4E4B-B801-119F19763797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C762C40-B165-4E4B-B801-119F19763797}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F09C918B-FA00-43EE-87D8-4A62A75D3CDF} = {222735C6-3715-4DEA-9CC6-D8D88AE9CD0C}
 		{CD78098C-081F-43BE-AC97-EEEB3208062D} = {B33471D8-EE29-47E8-B0EB-3D80265B7A07}
+		{8C762C40-B165-4E4B-B801-119F19763797} = {222735C6-3715-4DEA-9CC6-D8D88AE9CD0C}
 	EndGlobalSection
 EndGlobal
