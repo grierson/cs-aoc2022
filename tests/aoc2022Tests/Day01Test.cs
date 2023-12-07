@@ -74,4 +74,28 @@ public class ProcessTest
 
         Assert.Equal(24000, Day01.solve(data));
     }
+
+
+
+    [Fact]
+    public void Top_Three_Elves()
+    {
+        var data =
+            @"1000
+            2000
+            3000
+
+            4000
+
+            5000
+            6000
+
+            7000
+            8000
+            9000
+
+            10000";
+
+        Assert.Equal(45000, Day01.solve(data, 3));
+    }
 }

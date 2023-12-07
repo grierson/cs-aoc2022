@@ -1,4 +1,4 @@
 ﻿using aoc2022;
 
-Console.WriteLine(Day01.first());
+Console.WriteLine(Day01.second());
 
